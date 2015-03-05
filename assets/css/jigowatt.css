@@ -1,0 +1,212 @@
+body {
+    position: relative;    
+    padding: 220px 10px 40px 0;
+}
+.languageSelect { float:right; }
+.sidebar-nav { padding: 9px 0 }
+.avail {
+    border-color: #57a957;
+    color: #468847;
+}
+.exists {
+    border-color: #ee5f5b;
+    color: #b94a48;
+}
+a.signup-link em {
+    font-style: normal;
+    font-size: 12px;
+    color: #bababa;
+    margin-right: 4px;
+}
+.signin {
+    max-width: 500px;
+    width: 350px;
+}
+#pbtns a.btn { margin: 6px }
+.modal-btn {
+    margin-top: 45px;
+    float: right;
+}
+form.normal-label label {
+    font-weight: normal;
+    font-size: 11px;
+    color: #999;
+}
+.forgotcenter {
+    margin: auto;
+    width: 50%;
+}
+div.login {
+    margin-left: -25%;
+    margin-right: 5%;
+    text-align: center;
+}
+.a-tooltip { display:inline-block; }
+.btn.login-submit { margin: 5px 0 0 20px; }
+input[type="checkbox"]#remember,
+.remember { display: inline }
+.login-label { margin-right: 170px; margin-bottom: -25px; }
+span.forgot {
+    font-weight: normal;
+    font-size: 11px;
+    color: #999;
+    position: fixed;
+    padding-left: 20px;
+}
+input[type="checkbox"] { margin-right: 5px }
+p.signup { margin: 30px 0 0 190px; }
+.loader { padding: 0 10px }
+#userDrop { cursor: pointer }
+.login h4 { padding-bottom: 1% }
+.info-links a {
+    font-size: 13px!important;
+    margin-left: 10px;
+}
+.features h1 {
+	margin: 36px 0 27px;
+	font-size: 40px;
+	font-weight: 300;
+	text-align: center;
+}
+.features p.intro {
+	text-align: center;
+	font-size: 18px;
+	color: #777;
+	margin: 0.5em 0 3em;
+}
+
+.inset-text-effect {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  text-align: center;
+  text-transform: normal;
+  -o-text-overflow: clip;
+  text-overflow: clip;  
+  color: rgba(0,0,0,0.5);
+  text-shadow: 2px 2px 3px rgba(255,255,255,0.2);
+}
+
+.hero-unit {
+	text-align:center;
+	height: 504px;
+	padding: 100px 0 0 0;
+	margin-right: 0px;
+    	padding-top: 0px;
+}
+.hero-unit h1 {
+	font-size: 55px;
+	margin-top: 0.1em;
+	line-height: 1.2;
+	font-weight: 600;
+}
+.hero-unit h2 {
+	font-weight:normal;
+}
+.hero-unit p {
+   margin: 1em 0;
+}
+.gravatar {
+    padding: 1px;
+    display: inline;
+}
+.dropdown.open .dropdown-toggle {
+	color: #222;
+}
+
+/** Responsive styles */
+@media (min-width:768px) and (max-width:980px) {
+    body { padding-top: 0 }
+    .hero-unit h1 { font-size: 24px }
+    .hero-unit h2 { font-size: 14px }
+	.hero-unit .btn {margin-bottom: 10px;}
+}
+@media (max-width:980px) {
+    .navbar-fixed-top .brand {
+        float: left;
+        margin-left: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media (max-width:480px) {
+    body { padding-top: 40px }
+    h2 { margin-top: 27px }
+	.hero-unit {
+		text-align:center;
+		padding: 40px 0 0 0;
+		background: 0;
+		height: 330px !important;
+		margin: 0;
+	}
+    .hero-unit h1 { font-size: 14px }
+    .hero-unit h2 { font-size: 14px }
+    h2 small {
+        display: block;
+        line-height: 18px;
+    }
+    h3 { margin-top: 18px }
+    .hero-unit h1,
+    .hero-unit p {
+        text-align: center;
+        margin-right: 0;
+    }
+    .hero-unit h1 {
+        font-size: 45px;
+        margin-right: 0;
+    }
+    .hero-unit p {
+        margin-right: 0;
+        margin-left: 0;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .hero-unit .btn {
+        display: block;
+        font-size: 18px;
+        padding: 10px 14px;
+        margin: 0 auto 10px;
+    }
+    .hero-unit { padding-top: 0 }
+    table code {
+        white-space: normal;
+        word-wrap: break-word;
+        word-break: break-all;
+    }
+
+}
+@media (max-width:768px) {
+	.hero-unit {
+		text-align:center;
+		padding: 40px 0 0 0;
+		background: 0;
+		height: 130px;
+		margin: 0;
+	}
+    body { padding-top: 0 }
+    .hero-unit .btn { margin: 10px }
+}
+@media (min-width:480px) and (max-width:768px) {
+    .hero-unit h1 { font-size: 28px }
+    .hero-unit h2 { font-size: 14px }
+    .hero-unit p {
+        margin-right: 0;
+        margin-left: 0;
+    }
+	.hero-unit { margin-bottom: 100px }
+}
+.choiceLabel {
+    margin-left: 10px;
+}
+
+.choiceLabel > div {
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.choiceLabel label {
+    margin-left: 3px;
+}
